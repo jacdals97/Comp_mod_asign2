@@ -561,6 +561,7 @@ more_plots(grid_teacher)
 ![](Assignment2_files/figure-markdown_github/unnamed-chunk-11-1.png)
 
 ``` r
+#plotting the difference between this year and last years posterior distribution
 grid_teacher %>% 
   ggplot(aes(x = p_grid, y = errors, color = teacher)) +
   geom_point() +
